@@ -1,0 +1,53 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Учет коммунальных услуг</title>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+			<img class="logo1" src="{% static 'img/logo2.png' %}">
+            <div class="logo2">Kom.yslyg</div>
+            <nav>
+                <ul>
+                    <li><a href="{% url 'home1' %}">Главная</a></li>
+                    <li><a href="{% url 'about' %}">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="{% url 'register' %}" class="button1">Вход</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="grid2">
+        <article class="grid-item">
+            <div class="image">
+                <img src="{% static 'img/logo1.png' %}" />
+            </div>
+            <div class="info">
+                <h2>О нас</h2>
+                <div class="info-text">
+                    <p>С помощью нашего сервиса вы можете совершать оплату услуг ЖКХ банковской картой МИР или картами Visa, Mastercard, Maestro банков России. Такой способ позволит осуществлять оплаты максимально комфортно и быстро без посещения ЖЭУ или других организаций.</p>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        <div class="footer_text">     
+       <div class="text">
+               <p><a href="#">Оценить качество оказания услуг</a></p>
+       </div>
+       <p>Наша почта: lbrtprivet@gmail.com</p>
+       <p>2024 Kom.yslyg</p>
+       </div>  
+       <img class="logo3" src="{% static 'img/logo1.png' %}">
+           </footer>
+           
+    </body>

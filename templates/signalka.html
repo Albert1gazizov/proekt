@@ -1,0 +1,70 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style1.css' %}">
+    <title>Учет коммунальных услуг</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+			<img class="logo1" src="{% static 'img/logo2.png' %}">
+            <div class="logo2">Kom.yslyg</div>
+            <nav>
+                <ul>
+                  <li><a href="{% url 'home1' %}">Главная</a></li>
+                  <li><a href="{% url 'about' %}">О нас</a></li>
+                  <li><a href="#">Контакты</a></li>
+                  <li><a href="{% url 'register' %}" class="button1">Вход</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <form class="form" action="">
+        <h1 class="title__form">Оплата услуги по техническому обслуживанию сигнализации квартиры</h1>
+        <div class="input-container__fio">
+            <input
+              id="schet"
+              class="input-container__input"
+              type=""
+              placeholder="ФИО"/>
+          </div>
+        <input
+            class="input-container__input"
+            type=""
+            placeholder="Адрес"/>
+          <input
+            class="input-container__input"
+            type=""
+            placeholder="Квартира, дом"/>
+          <div class="input-container__custom-input">
+            <input
+              id="city-input"
+              class="input-container__input"
+              type=""
+              placeholder="Город"/>
+          </div>
+          <div class="input-container__schet">
+            <input
+              id="schet"
+              class="input-container__input"
+              type=""
+              placeholder="Счет"/>
+          </div>
+        </div>
+        <button class="button">Оплатить</button>
+      </form>
+      <footer>
+        <div class="footer_text">     
+       <div class="text">
+               <p><a href="#">Оценить качество оказания услуг</a></p>
+       </div>
+       <p>Наша почта: lbrtprivet@gmail.com</p>
+       <p>2024 Kom.yslyg</p>
+       </div>  
+       <img class="logo3" src="{% static 'img/logo1.png' %}">
+           </footer>
+</body>

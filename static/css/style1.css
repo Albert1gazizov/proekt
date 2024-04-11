@@ -1,0 +1,55 @@
+
+  .form {
+    width: 350px;
+    padding-left: 43%;
+    padding-top: 100px;
+  }
+  .title__form {
+    font-family: "Montserrat", sans-serif;
+    font-size: 26px;
+    line-height: 31px;
+    color: #5a1094;
+    margin-bottom: 19px;
+    
+  }
+ 
+  
+  .input-container__input {
+    margin-bottom: 10px;
+    font-family: "Helvetica Neue", serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: #6b6b6b;
+    padding: 10px 10px 10px 15px;
+    border: 1px solid #dedcdc;
+  }
+
+  .input-container__custom-input {
+    margin-bottom: 10px;
+    font-family: "Helvetica Neue", serif;
+    font-size: 16px;
+    line-height: 18px;
+    
+  }
+  .input-container__schet {
+    margin-bottom: 10px;
+    font-family: "Helvetica Neue", serif;
+    font-size: 16px;
+    line-height: 18px;
+    
+  }
+  
+  .button {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background: rgba(90, 16, 148, 0.8);
+    border: 1px solid rgba(67, 28, 93, 0.8);
+    border-radius: 5px;
+    width: 50%;
+    height: 45px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 29px;
+  }
+  
