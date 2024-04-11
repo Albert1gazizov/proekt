@@ -1,0 +1,24 @@
+1. Таблица "Пользователи":
+- user id (PRIMARY KEY)
+- username
+- email
+- password
+
+2. Таблица "Услуги":
+- service id (PRIMARY KEY)
+- service name
+- description
+- price
+
+3. Таблица "Заказы":
+- order id (PRIMARY KEY)
+- user id (FOREIGN KEY  Пользователи(user_id))
+- service id (FOREIGN KEY Услуги(service_id))
+- date ordered
+- status
+
+4. Таблица "Платежи":
+- payment id (PRIMARY KEY)
+- order id (FOREIGN KEY Заказы(order_id))
+- amount
+- payment date
